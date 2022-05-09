@@ -1,0 +1,85 @@
+html, body {
+     box-sizing: border-box;
+}
+
+body{
+    background-image:url('../Bilder/2021.11.12_Nuova_Stagione_AQM_WebHP.0.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.box-aussen{
+   width: 1000px;
+   min-height: 50px;
+    margin-left: auto;
+    margin-right: auto
+        ;
+}
+
+.Navi {
+    background-color:white;
+    width: 940px;
+    height:10px;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.Navi a{
+    color: black;
+}
+
+
+
+.Logo {
+    width: 100px;
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+.Logo h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 100px;
+    text-align: right;
+}
+.zweiboxen {
+     display:flex;
+}
+.box1-2,.box2-2{
+    flex:auto;
+}
+
+.box2-2{
+    text-align: right;
+}
+
+.button-insta {
+    width: 100px;
+        height:100px;
+            background-image: url('../Bilder/DesignBust_instagram_logo_transparent256.png');
+    padding: 20px; /*Innenabstand*/
+}
+.button-twitter{
+ width: 100px;
+    height: 100px;
+    background-image: url('../Bilder/twitter.png');
+    padding: 20px;
+}
+
+.video-box{
+    text-align: center;
+   
+}
+
+.h1-about {
+    color: black;   
+    font-size: 30px;
+}
+.team{
+        display: flex; 
+    justify-content: center; 
+    align-items: center;
+    
+}
